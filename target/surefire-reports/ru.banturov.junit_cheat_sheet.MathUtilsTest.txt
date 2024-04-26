@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ru.banturov.junit_cheat_sheet.MathUtilsTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in ru.banturov.junit_cheat_sheet.MathUtilsTest
+ru.banturov.junit_cheat_sheet.MathUtilsTest -- Time elapsed: 0.012 s <<< ERROR!
+org.junit.platform.commons.JUnitException: @BeforeAll method 'void ru.banturov.junit_cheat_sheet.MathUtilsTest.init()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1092)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
